@@ -1,0 +1,63 @@
+*{
+    margin:0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(205, 214, 222);
+}
+.hh2{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: lighter;
+    color:rgba(0, 0, 0, 0.645);
+    margin-bottom: 20px;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    align-items: center;
+    border: 10px solid;
+    border-radius: 30px;
+    background-color: white;
+    
+}
+#display{
+    font-size: 4rem;
+    font-family:monospace;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color:rgba(0, 0, 0, 0.645);
+}
+#controls button{
+    margin: 10px;
+    padding:10px 20px;
+    border:none;
+    border-radius: 10px; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 125px;
+    cursor: pointer;
+    color:white;
+    transition: ease-in 0.5s;
+}
+#startbtn{
+    background-color:rgb(2, 169, 54) ;
+}
+#startbtn:hover{
+    background-color:rgb(2, 109, 40) ;
+}
+#stopbtn{
+    background-color:rgba(224, 26, 26, 0.915) ;
+}
+#stopbtn:hover{
+    background-color:rgb(146, 2, 2) ;
+}
+#resetbtn{
+    background-color:rgb(51, 117, 203) ;
+}
+#resetbtn:hover{
+    background-color:rgb(3, 85, 173) ;
+}
